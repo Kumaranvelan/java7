@@ -72,7 +72,7 @@ const duke = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
 let z = ""
 duke.forEach(divisible);
 
-document.getElementById("demo8").innerHTML = "The element divisible by 7 is" + z;
+document.getElementById("demo8").innerHTML = "2.The element divisible by 7 is" + z;
 
 function divisible(value){
    if( value %7===0) z += value +", ";
