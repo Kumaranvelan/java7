@@ -31,4 +31,28 @@ function trial(value,index,array){
     return value / 7;
 }
 
+const apple = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+let result = apple.lastIndexOf(49);
+
+console.log(result)
+document.getElementById("demo4").innerHTML =" 7.The lastindex of 49 is =" + result;
+/*
+const array = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+let allOver18 = array.every(divide);
+
+document.getElementById("demo5").innerHTML = "6a.condition divisible by 7 is " + allOver18;
+
+function divide(value, index, array) {
+  return value / 7;
+}
+
+const task = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+let sum = task.reduceRight(question);
+
+document.getElementById("demo6").innerHTML = "9.The sum of the array is " + sum;
+
+function question(total, value,index,array) {
+    return total + value ;
+}
+
 
