@@ -55,4 +55,11 @@ function question(total, value,index,array) {
     return total + value ;
 }
 
+const Orange = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+let zen = Orange.some(condition);
 
+document.getElementById("demo7").innerHTML = "8.The condition is " + zen;
+
+function condition(value,index,array) {
+    return value %3==0 ;
+}
