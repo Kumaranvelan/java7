@@ -3,8 +3,8 @@
 
  document.getElementById("demo").innerHTML = "First number divisible  by 10 is " + first;
 
- function myFunction(value, index, array) {
-   return value/ 10;
+ function myFunction(value) {
+   return value %10==0 ;
  }
 
 const numbersss = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
@@ -18,7 +18,7 @@ const output = numbers.map(multiplication);
 
 document.getElementById("demo2").innerHTML = "3.The new Array of numbers1 is =" + output;
 
-function multiplication(value,index,array){
+function multiplication(value){
     return value * 3;
 }
 
@@ -30,6 +30,9 @@ document.getElementById("demo3").innerHTML = "6.The  Array of numbers12 divisibl
 function trial(value,index,array){
     return value / 7;
 }
+
+
+
 
 const apple = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
 let result = apple.lastIndexOf(49);
@@ -63,3 +66,18 @@ document.getElementById("demo7").innerHTML = "8.The condition is " + zen;
 function condition(value,index,array) {
     return value %3==0 ;
 }
+
+
+const duke = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+let z = ""
+duke.forEach(divisible);
+
+document.getElementById("demo8").innerHTML = "The element divisible by 7 is" + z;
+
+function divisible(value){
+   if( value %7===0) z += value +", ";
+}
+
+const integersss = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+
+intergersss.sort(fucntion(a-b))
