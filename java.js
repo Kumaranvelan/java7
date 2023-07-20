@@ -45,7 +45,7 @@ document.getElementById("demo5").innerHTML = "6a.condition divisible by 7 is " +
 function divide(value, index, array) {
   return value / 7;
 }
-/*
+
 const task = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
 let sum = task.reduceRight(question);
 
