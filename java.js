@@ -80,4 +80,5 @@ function divisible(value){
 
 const integersss = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
 
-intergersss.sort(fucntion(a-b))
+integersss.sort(function(a, b){return a - b});
+document.getElementById("demo9").innerHTML = "1.The second smallest number in array is " + integersss[1] +" ,"+ "The second largest number in a given array  is" + integersss[9]; 
